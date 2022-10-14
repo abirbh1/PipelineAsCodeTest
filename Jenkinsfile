@@ -11,7 +11,7 @@ pipeline {
    stages {
     stage('test') {
       steps {
-        echo 'Build is completed'
+        echo 'Testing is completed'
       }
     }
 
