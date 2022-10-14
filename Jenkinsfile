@@ -8,4 +8,12 @@ pipeline {
     }
 
   }
+   stages {
+    stage('test') {
+      steps {
+        echo 'Build is completed'
+      }
+    }
+
+  }
 }
